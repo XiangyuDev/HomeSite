@@ -395,6 +395,7 @@ samp {
 .features-list {
   margin-top: 60px;
   
+
 }
 .features-list .page-header {
   border: 0;
@@ -785,6 +786,9 @@ input.invalid {
 }
 .navbar-nav {
   margin: 7.5px -15px;
+}
+@media (max-width: 767px) {
+  
 }
 @media (min-width: 768px) {
   .navbar-nav {
@@ -1980,6 +1984,9 @@ div.calendar {
 }
 .container .jumbotron {
   border-radius: 6px;
+}
+@media screen and (min-width: 768px) {
+  
 }
 .masthead {
   padding: 40px 0;
