@@ -1,0 +1,362 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body {
+    font-family: "microsoft yahei","黑体",Tahoma,Verdana,Arial,Helvetica,sans-serif,"宋体";
+    padding-top: 40px;
+}
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* add logo for retina only*/
+.navbar-brand {
+    height: 40px;
+    width: 125px;
+    padding: 0px;
+    margin-left: 5px;
+    background: transparent url(../images/logo.png) no-repeat left center;
+    background-size: 125px 25px;
+    -o-background-size: 125px 25px;
+    -webkit-background-size: 125px 25px ;
+}
+
+/* CUSTOMIZE THE BANNER
+-------------------------------------------------- */
+#waypoint-banner{
+    position: relative;
+    height: 300px;
+    padding-top: 90px;
+    background-color:#01081a;
+}
+
+#slogan_1{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 220px;
+    height: 53px;
+    background: transparent url(../images/bnr-1.png) left center no-repeat;
+    background-size: 220px 53px;
+    z-index: 200;
+}
+
+#slogan_2{
+    position: absolute;
+    top: 60%;
+    right: 20%;
+    width: 227px;
+    height: 65px;
+    background: transparent url(../images/bnr-2.png) left center no-repeat;
+    background-size: 227px 65px;
+    z-index: 200;
+}
+
+.univ_1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    z-index:110;
+}
+
+.univ_1 {
+    background: transparent url(../images/univ_1.jpg) no-repeat center center;
+    background-size: 750px 365px;
+}
+
+/* SERVICES and FEATURERETTES
+-------------------------------------------------- */
+div.service{
+    background: url(../images/serv-bg.jpg) repeat center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+
+.serivce-divider{
+    height: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background: transparent url(../images/serv-div.png) no-repeat center;
+    background-size: 480px 17px;
+    border: 0px;
+}
+
+.featurette-divider {
+    margin: 10px 0; /* Space out the Bootstrap <hr> more */
+    border: 0px;
+    height: 1px;
+    background: transparent url(../images/div.png) no-repeat center;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+/* center images */
+.featurette-image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FOOTER
+-------------------------------------------------- */
+.oxy-footer {
+    color: #777;
+    background: #3e3d3d;
+}
+
+#waypoint-about .container {
+    padding-top: 15px;
+}
+
+.contact {
+    height: 30px;
+    color:#999999;
+}
+
+.contact-h {
+    color:#777777;
+}
+
+.contact-c-w{
+    display: none;
+}
+.qr {
+    display:none;
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+
+@media (min-width: 768px) {
+
+    /* add logo*/
+    .navbar-brand {
+        height: 50px;
+        width: 250px;
+        padding: 0px;
+        background: transparent url(../images/logo.png) no-repeat;
+    }
+
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+        background-color: inherit;
+        border-bottom: 2px solid #f26932;
+    }
+
+    /* Thicker Navbar and body padding to match*/
+    body {
+        padding-top: 90px;
+        color: #5a5a5a;
+    }
+
+    .navbar {
+        height:90px;
+    }
+
+    #waypoint-banner{
+        height: 670px;
+        padding-top: 90px;
+    }
+
+    #slogan_1{
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        width: 330px;
+        height: 78px;
+        background: transparent url(../images/bnr-1.png) left center no-repeat;
+        background-size: 330px 78px;
+        z-index: 200;
+    }
+
+    #slogan_2{
+        position: absolute;
+        top: 60%;
+        right: 20%;
+        width: 341px;
+        height: 98px;
+        background: transparent url(../images/bnr-2.png) left center no-repeat;
+        background-size: 341px 98px;
+        z-index: 200;
+    }
+
+    .univ_1{
+        background-size: 1500px 730px;
+    }
+
+    /* Remove the edge padding needed for mobile */
+    .marketing {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Navbar positioning foo */
+    .navbar-wrapper .container {
+
+        padding-left:  15px;
+        padding-right: 15px;
+    }
+
+    .navbar-container {
+        padding : 20px;
+    }
+
+    .navbar-wrapper .navbar {
+        padding-left:  0;
+        padding-right: 0;
+    }
+
+    /* bigger font size on navbar */
+    .container {
+        font-size: 18px;
+    }
+
+
+    /* Service divider larger margin-bottom */
+    .serivce-divider{
+        height: 34px;
+        background-size: 960px 34px;
+        margin-bottom: 90px;
+    }
+
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    div.service {
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    #slogan_1{
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        width: 440px;
+        height: 106px;
+        background: transparent url(../images/bnr-1.png) left center no-repeat;
+        z-index: 200;
+    }
+
+    #slogan_2{
+        position: absolute;
+        top: 60%;
+        right: 20%;
+        width: 454px;
+        height: 130px;
+        background: transparent url(../images/bnr-2.png) left center no-repeat;
+        z-index: 200;
+    }
+
+    /* Service widescreen */
+    .featurette-heading {
+        height: 100px;
+        width: 360px;
+        border: 3px solid #666666;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+
+        color: #ff6633;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .service p{
+        padding: 50px;
+        padding-left: 70px;
+        padding-right: 60px;
+    }
+
+    .serivce-divider{
+        padding-top: 40px;
+    }
+
+
+    /* Service widescreen heading */
+    .text-muted {
+        display: block;
+        color: #ff6633;
+    }
+
+    /* Service widescreen alignment */
+    .desktop-pull-right{
+        float: right;
+    }
+
+    .featurette-divider {
+        margin: 90px 0;
+    }
+
+    div.service {
+        padding-bottom: 90px;
+    }
+
+
+    .contact {
+        height: 40px;
+        padding-left: 50px;
+        padding-top:8px;
+        padding-bottom: 8px;
+    }
+
+    #waypoint-about .email{
+        background: url(../images/email.png) left center no-repeat
+    }
+
+    #waypoint-about .qq{
+        background: url(../images/qq.png) left no-repeat
+    }
+
+    #waypoint-about .addr{
+        background: url(../images/addr.png) left no-repeat
+    }
+
+    #waypoint-about .wc{
+        background: url(../images/wc.png) left no-repeat
+    }
+
+    #waypoint-about .wc-qr{
+        background: url(../images/wc-qr.png) left no-repeat
+    }
+
+    #waypoint-about .web-qr{
+        background: url(../images/web-qr.png) left no-repeat
+    }
+
+    .contact-h {
+        display: none;
+    }
+
+    .contact-c-m {
+        display: none;
+    }
+    .contact-c-w{
+        display: inline;
+    }
+
+    .qr {
+        display: block;
+        height: 80px;
+    }
+
+    .copyright {
+        padding-top: 40px;
+        text-align: center;
+    }
+}
